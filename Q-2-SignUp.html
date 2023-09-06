@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+
+    <style>
+        body {
+            background-color: black;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            width: 330px;
+            margin: auto;
+            padding: 15px 8px 30px 15px;
+            border-radius: 5px;
+            margin-top: 50px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 30px;
+        }
+        button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 0px;
+            border-radius: 2px;
+            margin-right: 10px;
+        }
+        input {
+            padding: 8px 0px;
+        }
+        select {
+            padding: 9px 0px;
+            margin-right: 10px;
+        }
+            
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Signup</h1>
+
+        <label for="username">Name:</label>
+        <input type="text" name="username" id="username">
+        <br/>
+        <br/>
+
+        <label for="batch">Batch:</label>
+        <select name="batch" id="batch">
+            <option value="">Sigma 2.0</option>
+            <option value="">Sigma 1.0</option>
+        </select>
+        <br/>
+        <br/>
+
+        <label for="Age">Age:</label>
+        <input type="text" name="age" id="Age">
+        <br/>
+        <br/>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br/>
+        <br/>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+        <br/>
+        <br/>
+
+        <button>Signup</button>
+    </div>
+
+</body>
+</html>
